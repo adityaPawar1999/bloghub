@@ -7,4 +7,4 @@ const Post =()=>{
         </>
     )
 }
-export default MainSection
+export default Post;

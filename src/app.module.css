@@ -8,7 +8,7 @@
     box-sizing: border-box;
     overflow-y: hidden;
 }
-/* Example: Disable transition on certain elements */
+
 .active{
   color:yellowgreen;
   border-bottom: 2px soild yellowgreen;

@@ -7,8 +7,8 @@ min-height:39vh;
 const Create=()=>{
     return(<>
     <CreateStyle>
-        <div className="createContainer">
-
+        <div className="createContainer container">
+            <p>create page</p>
         </div>
         </CreateStyle>
     </>)

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import NavbarStyle from "./NavbarStyle"; // Assuming this is your styled component
+import NavbarStyle from "./NavbarStyle"; 
 import MenuIcon from '@mui/icons-material/Menu';
 import CancelIcon from '@mui/icons-material/Cancel';
 import SmartToyIcon from '@mui/icons-material/SmartToy';
@@ -11,8 +11,6 @@ function NavigationBar() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
-
-
 
     return (
         <>

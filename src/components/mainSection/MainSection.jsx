@@ -1,14 +1,6 @@
 import LeftSection from "./leftSection/LeftSection"
 import RightSection from "./rightSection/RightSection"
 
-import  { styled } from 'styled-components'
-
-const StyleDiv = styled.div`
-bg{
-    background:red;
-}
-`
-
 const MainSection=()=>{
     return(
         <>

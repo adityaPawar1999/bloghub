@@ -128,39 +128,39 @@ const RightSection = () => {
                         <button className='btn' onClick=''><BackupIcon /> submit</button>
                     </form>
                 </div>
-<br/><hr/><br/>
+                <br /><hr /><br />
                 <div className='socialSite'>
                     <h4 className='socialSite_heading'>KEEP UP WITH OUR BLOGS</h4>
                     <div className='row g-1'>
                         <div className='col-lg-6 col-md-12 col-sm-6'>
-                            
-                    <p className='socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
-                         </div>   
+
+                            <p className='socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
+                        </div>
                         <div className='col-lg-6 col-md-12 col-sm-6'>
-                            
-                    <p className='socialIcon instagram'><InstagramIcon /> <span> Instargram</span></p>
+
+                            <p className='socialIcon instagram'><InstagramIcon /> <span> Instargram</span></p>
                         </div>
                     </div>
                     <div className='row g-1'>
                         <div className='col-lg-6 col-md-12 col-sm-6'>
-                            
-                    <p className='socialIcon youtube'><YouTubeIcon /><span>Youtube</span></p>
-                         </div>   
+
+                            <p className='socialIcon youtube'><YouTubeIcon /><span>Youtube</span></p>
+                        </div>
                         <div className='col-lg-6 col-md-12 col-sm-6'>
-                            
-                    <p className='socialIcon telegram'><TelegramIcon /><span>Telegram</span></p>
+
+                            <p className='socialIcon telegram'><TelegramIcon /><span>Telegram</span></p>
                         </div>
                     </div>
                     <div className='row g-1'>
                         <div className='col-lg-6 col-md-12 col-sm-6'>
-                    <p className='socialIcon whatsapp'><WhatsAppIcon /><span>Whatsapp</span></p>
-                         </div>   
-                        <div className='col-lg-6 col-md-12 col-sm-6'>
-                            
-                    <p className='socialIcon twitter'><TwitterIcon /><span>Twitter</span></p>
+                            <p className='socialIcon whatsapp'><WhatsAppIcon /><span>Whatsapp</span></p>
                         </div>
-                    </div>    
-                    
+                        <div className='col-lg-6 col-md-12 col-sm-6'>
+
+                            <p className='socialIcon twitter'><TwitterIcon /><span>Twitter</span></p>
+                        </div>
+                    </div>
+
                 </div>
             </StyleDiv>
         </>
