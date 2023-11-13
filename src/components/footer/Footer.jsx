@@ -53,11 +53,7 @@ const Footer = () => {
             <FooterStyle>
                 <div className="footer">
                     <div className="container">
-                        <div className="row1 row">
-                            <div className="blogLogo col-lg-3 ">
-                                <h4><SmartToyIcon /> UpdateDAILY</h4>
-                            </div>
-                            <div className="description col-lg-9">
+                            <div className="description c">
                                 <p>Explore a world of inspiration and knowledge through our dynamic blog. Uncover captivating stories, expert insights, and practical tips spanning diverse topics. Immerse yourself in a rich tapestry of content that informs, entertains, and enriches your daily life.</p>
                             </div>
 
