@@ -32,6 +32,8 @@ const FooterStyle = styled.div`
 padding-top:3rem;
 }
 .description{
+
+padding-top:3rem;
     padding-bottom:1rem;
     font-size:.8rem;
 }
