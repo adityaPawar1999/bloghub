@@ -1,0 +1,16 @@
+
+.global{
+    margin: 0;
+    
+    box-sizing: border-box;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+/* Example: Disable transition on certain elements */
+.active{
+  color:yellowgreen;
+  border-bottom: 2px soild yellowgreen;
+}
+  

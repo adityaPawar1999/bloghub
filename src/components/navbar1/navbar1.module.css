@@ -1,0 +1,47 @@
+
+.main{
+    background: rgb(240, 240, 240);
+}
+
+.navbar1{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    background-color: #212121;
+    color:#fff
+}
+.socialSite{   
+    color: greenyellow;
+    display: flex;
+    gap: 1rem;
+    padding-left: 3%;
+
+}
+.link1{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    right: 0%;
+    padding-left: 3rem;
+}
+
+.advertise{
+    display: flex;
+}
+
+/*--------------------------------------------*/
+@media (max-width: 600px) {
+
+
+.link{
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialSite{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

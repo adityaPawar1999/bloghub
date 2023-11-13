@@ -1,0 +1,57 @@
+
+.mainContainer{
+    margin-top: 2%;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.text_overlay {
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    transform: translate(0%, -80%);
+    text-align: left;
+    color: #fff;
+    padding: 2rem;
+    font-size: .7rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 700;
+  }
+  img{
+padding: 1px;
+  }
+.img1{
+    height:443px;
+    width: 100%;
+    object-fit: cover;
+}
+.img2{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.img3{
+    height: 243px;
+    width: 100%;
+    object-fit: cover;
+}
+.img4{
+    height: 243px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img1:hover, 
+.img2:hover, 
+.img3:hover,
+.img4:hover{ 
+    filter: brightness(40%); 
+    color: yellowgreen;
+    transition:  0.3s ease-in-out;
+}
