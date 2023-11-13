@@ -23,7 +23,6 @@ export default function Navbar1() {
                         <Link  className={style.link1} to='/'>Contact</Link>
                         <Link className={style.link1} to='/'>AboutUs</Link>
                         <Link  className={style.link1} to='/'>Login</Link>
-                        <Link className={style.link1} to='/'>Refer</Link>
                     </div>
                 </div>
             </div>
