@@ -28,6 +28,9 @@ const FooterStyle = styled.div`
 .row1{
     padding:3rem 0 2rem 0; 
 }
+.bloglogo{
+padding-top:3rem;
+}
 .description{
     padding-bottom:1rem;
     font-size:.8rem;
