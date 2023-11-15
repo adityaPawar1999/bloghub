@@ -53,6 +53,10 @@ cursor:pointer;
 backgound-color:#fff;
 color:#212121;
 }
+.active{
+backgound-color:#fff;
+color:#212121;
+}
 `
 
 const Footer = () => {
@@ -80,20 +84,21 @@ const Footer = () => {
                                 <hr />
                                 <div className='row g-1'>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-                                        <p className='socialIcon facebook'>Home</p>
+                                        <p className='socialIcon facebook'><NavLinkto='/'>Home</NavLink></p>
+                                      
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
 
-                                        <p className='socialIcon instagram'>Post</p>
+                                        <p className='socialIcon instagram'><NavLinkto='/'>Posts</NavLink></p>
                                     </div>
                                 </div>
                                 <div className='row g-1'>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-                                        <p className='socialIcon facebook'>Create</p>
+                                        <p className='socialIcon facebook'>    <NavLinkto='/'>Trending</NavLink</p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
 
-                                        <p className='socialIcon instagram'>Login</p>
+                                        <p className='socialIcon instagram'>    <NavLinkto='/'>Login</NavLink></p>
                                     </div>
                                 </div>
 
