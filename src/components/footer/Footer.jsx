@@ -32,7 +32,6 @@ const FooterStyle = styled.div`
 padding-top:3rem;
 }
 .description{
-
 padding-top:3rem;
     padding-bottom:1rem;
     font-size:.8rem;
@@ -50,6 +49,7 @@ padding-bottom:2rem;
 cursor:pointer;
 }
 .socialIcon:hover{
+cursor: pointer;
 backgound-color:#fff;
 color:#212121;
 }
