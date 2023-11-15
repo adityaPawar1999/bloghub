@@ -21,7 +21,7 @@ const FooterStyle = styled.div`
     padding-bottom:3rem;
 
     margin: 0;
-    padding: 0;
+    padding-bottom:2reml;
     max-height: 100vh;
     flex-direction: column;
 }
@@ -49,7 +49,7 @@ p{
 padding-bottom:2rem;
 cursor:pointer;
 }
-.updates p{
+.socialIcon:hover{
 backgound-color:#fff;
 color:#212121;
 }
@@ -109,7 +109,7 @@ const Footer = () => {
                                 <hr />
                                 <div className='row g-1'>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-                                        <p className='socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
+                                        <p className=' socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
 
