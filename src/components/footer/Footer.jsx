@@ -45,6 +45,14 @@ padding-top:3rem;
 p{
     font-size:.8rem;
 }
+.updates{
+padding-bottom:2rem;
+cursor:pointer;
+}
+.updates p{
+backgound-color:#fff;
+color:#212121;
+}
 `
 
 const Footer = () => {
