@@ -25,7 +25,7 @@ function NavigationBar() {
 
                             <NavLink className="navLink" to='/'>Home</NavLink>
                             <NavLink className="navLink" to='/post'>Posts</NavLink>
-                            <NavLink className="navLink" to='/create'>Create</NavLink>
+                            <NavLink className="navLink" to='/create'>Trending</NavLink>
                             <NavLink className="navLink " to='/login'>LogIn</NavLink>
                         </div>
 
@@ -40,8 +40,9 @@ function NavigationBar() {
                         {isMenuOpen && (
                             <div className="mobile-menu">
                                 <Link className="navLink" to='/'>home</Link><hr />
-                                <Link className="navLink" to='/about'>About</Link><hr />
-                                <Link className="navLink" to='/contact'>Contact</Link><hr />
+                                <Link className="navLink" to='/about'>Posts</Link><hr />
+                                <Link className="navLink" to='/contact'>trending</Link><hr />
+                                <Link className="navLink" to='/contact'>Login</Link><hr />
                             </div>
                         )}
                     </div>
