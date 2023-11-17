@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+
+
+
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -16,9 +19,11 @@ const FooterStyle = styled.div`
     justify-content:center;
     align-item:center;
 }
+
 .description{
     font-size:.8rem;
 }
+
 .title{
     font-size:1rem;
     font-weight:600
@@ -41,6 +46,7 @@ const FooterStyle = styled.div`
     cursor:pointer;
 }
 .socialIcon:hover{
+
     color:yellowgreen;
 }
 `
@@ -51,34 +57,46 @@ const Footer = () => {
             <FooterStyle>
                 <div className="footer">
                     <div className="container">
-                        <div className="row1 row">     
-                            <br/><br/>
+                        <div className="row1 row">
+                            
+                        <br/><br/>
                             <div className="description col-lg-9">
-                                <br/><br/>
+                                
+                            
+                            <br/><br/>
                                 <p>Explore a world of inspiration and knowledge through our dynamic blog. Uncover captivating stories, expert insights, and practical tips spanning diverse topics. Immerse yourself in a rich tapestry of content that informs, entertains, and enriches your daily life.</p>
-                            </div>            
+                            </div>
+                    
                             <hr/>
+
                         </div>
+
                         <div className="row2 row">
                             <div className="title col-lg-4">
+                                
                             <br/><br/>
                                 <p className="title">RECENT POSTS :</p>
                                 <p className="socialIcon">How to grow Your Business in 2023</p>
                                 <p  className="socialIcon">Best way to earn money online</p>
                                 <p  className="socialIcon">Top exercise to gain weight</p>
-                            </div>                            
-                            <div className="navlinks col-lg-4">                            
+                            </div>
+                            
+                            <div className="navlinks col-lg-4">
+                                
                             <br/><br/>
                                 <p className="title">NAVIGATION :</p>
                                 <div className='row g-1'>
-                                    <div className='col-lg-6 col-md-12 col-sm-6'>                                    
+                                    <div className='col-lg-6 col-md-12 col-sm-6'>
+                                    
                             <NavLink className="navLink" to='/'>Home</NavLink><br/>
                             <NavLink className="navLink" to='/posts'>Posts</NavLink><br/>
                             <NavLink className="navLink" to='/login'>Login</NavLink>
                                     </div>
                                 </div>
+
                             </div>
-                            <div className="updates col-lg-4">                            
+                            <div className="updates col-lg-4">
+                                
                             <br/><br/>
                                 <p className="title">GET REGULAR UPDATES</p>
                                 <div className=' row g-1'>
@@ -86,14 +104,17 @@ const Footer = () => {
                                         <p className='socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
+
                                         <p className='socialIcon instagram'><InstagramIcon /> <span> Instargram</span></p>
                                     </div>
                                 </div>
                                 <div className='row g-1'>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
+
                                         <p className='socialIcon youtube'><YouTubeIcon /><span>Youtube</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
+
                                         <p className='socialIcon telegram'><TelegramIcon /><span>Telegram</span></p>
                                     </div>
                                 </div>
@@ -102,14 +123,19 @@ const Footer = () => {
                                         <p className='socialIcon whatsapp'><WhatsAppIcon /><span>Whatsapp</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
+
                                         <p className='socialIcon twitter'><TwitterIcon /><span>Twitter</span></p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
+
                 </div>
-            </FooterStyle
+
+            </FooterStyle>
+
         </>
     )
 }
