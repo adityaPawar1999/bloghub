@@ -1,15 +1,12 @@
 import styled from "styled-components";
 
-import SmartToyIcon from '@mui/icons-material/SmartToy';
-
-
-
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { NavLink } from "react-router-dom";
 
 const FooterStyle = styled.div`
 .footer{
@@ -18,44 +15,33 @@ const FooterStyle = styled.div`
     display:flex;
     justify-content:center;
     align-item:center;
-    padding-bottom:3rem;
-
-    margin: 0;
-    padding-bottom:2reml;
-    max-height: 100vh;
-    flex-direction: column;
-}
-.row1{
-    padding:3rem 0 2rem 0; 
-}
-.bloglogo{
-padding-top:3rem;
 }
 .description{
-padding-top:3rem;
-    padding-bottom:1rem;
     font-size:.8rem;
 }
-
 .title{
     font-size:1rem;
     font-weight:600
 }
-p{
-    font-size:.8rem;
-}
-.updates{
-padding-bottom:2rem;
-cursor:pointer;
-}
-.socialIcon:hover{
-cursor: pointer;
-backgound-color:#fff;
-color:#212121;
+.navLink{
+    text-decoration:none;
+    color:#fff;
+    font-weight:700;
 }
 .active{
-backgound-color:#fff;
-color:#212121;
+    color:yellowgreen;
+}
+.navLink:hover{
+    color:yellowgreen;
+}
+.updates{
+    padding-bottom:1rem;
+}
+.socialIcon{
+    cursor:pointer;
+}
+.socialIcon:hover{
+    color:yellowgreen;
 }
 `
 
@@ -65,64 +51,49 @@ const Footer = () => {
             <FooterStyle>
                 <div className="footer">
                     <div className="container">
-                            <div className="description c">
+                        <div className="row1 row">     
+                            <br/><br/>
+                            <div className="description col-lg-9">
+                                <br/><br/>
                                 <p>Explore a world of inspiration and knowledge through our dynamic blog. Uncover captivating stories, expert insights, and practical tips spanning diverse topics. Immerse yourself in a rich tapestry of content that informs, entertains, and enriches your daily life.</p>
-                            </div>
-
+                            </div>            
+                            <hr/>
                         </div>
-
                         <div className="row2 row">
                             <div className="title col-lg-4">
+                            <br/><br/>
                                 <p className="title">RECENT POSTS :</p>
-                                <hr />
-                                <p>How to grow Your Business in 2023</p>
-                                <p>Best way to earn money online</p>
-                                <p>Top exercise to gain weight</p>
-                            </div>
-                            <div className="navlinks col-lg-4">
+                                <p className="socialIcon">How to grow Your Business in 2023</p>
+                                <p  className="socialIcon">Best way to earn money online</p>
+                                <p  className="socialIcon">Top exercise to gain weight</p>
+                            </div>                            
+                            <div className="navlinks col-lg-4">                            
+                            <br/><br/>
                                 <p className="title">NAVIGATION :</p>
-                                <hr />
                                 <div className='row g-1'>
-                                    <div className='col-lg-6 col-md-12 col-sm-6'>
-                                        <p className='socialIcon facebook'><NavLinkto='/'>Home</NavLink></p>
-                                      
-                                    </div>
-                                    <div className='col-lg-6 col-md-12 col-sm-6'>
-
-                                        <p className='socialIcon instagram'><NavLinkto='/'>Posts</NavLink></p>
+                                    <div className='col-lg-6 col-md-12 col-sm-6'>                                    
+                            <NavLink className="navLink" to='/'>Home</NavLink><br/>
+                            <NavLink className="navLink" to='/posts'>Posts</NavLink><br/>
+                            <NavLink className="navLink" to='/login'>Login</NavLink>
                                     </div>
                                 </div>
-                                <div className='row g-1'>
-                                    <div className='col-lg-6 col-md-12 col-sm-6'>
-                                        <p className='socialIcon facebook'>    <NavLinkto='/'>Trending</NavLink</p>
-                                    </div>
-                                    <div className='col-lg-6 col-md-12 col-sm-6'>
-
-                                        <p className='socialIcon instagram'>    <NavLinkto='/'>Login</NavLink></p>
-                                    </div>
-                                </div>
-
-
                             </div>
-                            <div className="updates col-lg-4">
+                            <div className="updates col-lg-4">                            
+                            <br/><br/>
                                 <p className="title">GET REGULAR UPDATES</p>
-                                <hr />
-                                <div className='row g-1'>
+                                <div className=' row g-1'>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-                                        <p className=' socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
+                                        <p className='socialIcon facebook'><FacebookIcon /> <span> facebook</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-
                                         <p className='socialIcon instagram'><InstagramIcon /> <span> Instargram</span></p>
                                     </div>
                                 </div>
                                 <div className='row g-1'>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-
                                         <p className='socialIcon youtube'><YouTubeIcon /><span>Youtube</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-
                                         <p className='socialIcon telegram'><TelegramIcon /><span>Telegram</span></p>
                                     </div>
                                 </div>
@@ -131,19 +102,14 @@ const Footer = () => {
                                         <p className='socialIcon whatsapp'><WhatsAppIcon /><span>Whatsapp</span></p>
                                     </div>
                                     <div className='col-lg-6 col-md-12 col-sm-6'>
-
                                         <p className='socialIcon twitter'><TwitterIcon /><span>Twitter</span></p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-            </FooterStyle>
-
+            </FooterStyle
         </>
     )
 }
