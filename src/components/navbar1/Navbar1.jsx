@@ -10,7 +10,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 export default function Navbar1() {
     return (
-        <>
+        <div classname='container'>
             <div className={style.main}>
                 <div className={`${style.navbar1} container row g-0`}>
                     <div className={`${style.socialSite} col-lg-8 col-md-4 col-sm-4  `}>
@@ -27,6 +27,6 @@ export default function Navbar1() {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
