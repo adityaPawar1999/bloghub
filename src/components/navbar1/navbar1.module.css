@@ -1,6 +1,6 @@
 
 .main{
-    background: rgb(240, 240, 240);
+    background: #212121;
 }
 
 .navbar1{
@@ -29,16 +29,13 @@
 
 /*--------------------------------------------*/
 @media (max-width: 600px) {
-
-
 .link{
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.socialSite{
-    
+.socialSite{  
     display: flex;
     align-items: center;
     justify-content: center;
